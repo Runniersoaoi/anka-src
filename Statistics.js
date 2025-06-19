@@ -1,16 +1,4 @@
-import StatusHeader from "@/components/StatusHeader";
-import Navigation from "@/components/Navigation";
-import { useStatus } from "@/context/statusContext";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { VolumeIcon as VolumeUp, Clock, Bell, Calendar } from "lucide-react";
-import { useState, useEffect } from "react";
+
 
 const Statistics = () => {
   const { alerts, usageTime } = useStatus();

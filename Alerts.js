@@ -1,12 +1,4 @@
-import StatusHeader from "@/components/StatusHeader"
-import Navigation from "@/components/Navigation"
-import AlertItem from "@/components/AlertItem"
-import { useStatus } from "@/context/statusContext"
-import { Button } from "@/components/ui/button"
-import { VolumeIcon as VolumeUp } from "lucide-react"
-import { useState } from "react"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+
 
 const Alerts = () => {
   const { alerts } = useStatus()

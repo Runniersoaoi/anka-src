@@ -1,13 +1,4 @@
-import { useEffect } from "react";
-import StatusHeader from "@/components/StatusHeader";
-import Navigation from "@/components/Navigation";
-import AlertItem from "@/components/AlertItem";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Bell, Settings, BarChart2, HelpCircle } from "lucide-react";
-import { useStatus } from "@/context/statusContext";
-import { useNavigate } from "react-router-dom";
-import ImageDescriptionButton from "@/components/ImageDescriptionButton";
+
 
 const Home = () => {
   const { alerts, connected, addAlert } = useStatus();

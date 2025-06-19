@@ -1,11 +1,3 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Home from "./pages/Home";
-import Configuration from "./pages/Configuration";
-import Alerts from "./pages/Alerts";
-import Statistics from "./pages/Statistics";
-import { StatusProvider } from "./context/statusContext";
-import Guide from "./pages/Guide";
-import ImageDescriptionButton from "./components/ImageDescriptionButton";
 
 function App() {
   return (

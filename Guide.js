@@ -1,10 +1,3 @@
-import StatusHeader from "@/components/StatusHeader"
-import Navigation from "@/components/Navigation"
-import { Button } from "@/components/ui/button"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Card, CardContent } from "@/components/ui/card"
-import { VolumeIcon as VolumeUp, Bluetooth, AlertCircle, Settings, BarChart2 } from "lucide-react"
-import { useState } from "react"
 
 const guideContent = [
   {

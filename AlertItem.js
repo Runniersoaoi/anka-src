@@ -1,5 +1,4 @@
-import { AlertCircle, AlertTriangle, Clock, Info } from "lucide-react"
-import { cn } from "@/lib/utils"
+
 
 const AlertItem = ({ type, message, timestamp, isLatest = false }) => {
   const getIcon = () => {

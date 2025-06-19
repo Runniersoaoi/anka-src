@@ -1,8 +1,4 @@
-import { Battery, Bluetooth, BluetoothOff } from "lucide-react"
-import { useStatus } from "@/context/statusContext"
-import { Button } from "@/components/ui/button"
-import { Progress } from "@/components/ui/progress"
-import { cn } from "@/lib/utils"
+
 
 const StatusHeader = () => {
   const { connected, toggleConnection } = useStatus()

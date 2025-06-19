@@ -1,7 +1,4 @@
-import { useNavigate, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Home, Bell, Settings, BarChart2, HelpCircle } from "lucide-react";
-import { cn } from "@/lib/utils";
+
 
 const Navigation = () => {
   const navigate = useNavigate();

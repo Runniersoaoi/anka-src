@@ -1,12 +1,9 @@
-import StatusHeader from "@/components/StatusHeader"
-import Navigation from "@/components/Navigation"
-import { useStatus } from "@/context/statusContext"
-import { Button } from "@/components/ui/button"
 
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "card.js"
+import { RadioGroup, RadioGroupItem } from "radio-group.js"
+import { Label } from "label.js"
 import { Sliders, Volume2, Vibrate, Save } from "lucide-react"
 import { useState } from "react"
 // import { useToast } from "@/hooks/use-toast"
